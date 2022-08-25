@@ -20,6 +20,12 @@ int		main(void)
 {
 	char	*src = "lancelot";
 	char	dst[10];
+
+	//pre_test
+	printf("src:: %s\n", src);
+	printf("dst:: %s\n", dst);
 	ft_strcpy(dst, src);
+	printf("src:: %s\n", src);
+	printf("dst:: %s\n", dst);
 	return(0);
 }
