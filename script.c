@@ -30,7 +30,7 @@ int		main(void)
 {
 	char	*str = "lancelot";
 
-	printf("%s", ft_strstr(str, "cc"));
+	printf("%s", ft_strstr(str, "zzzzzzc"));
 
 	return(0);
 }
