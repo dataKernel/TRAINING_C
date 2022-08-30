@@ -41,6 +41,6 @@ int ft_strcmp(char *s1, char *s2)
 
 int main(void)
 {
-	printf("%i", strcmp("az", "lancelot"));
+	printf("%i", ft_strcmp("dsdlkjh", "lancot"));
 	return(0);
 }
