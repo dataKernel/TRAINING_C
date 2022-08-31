@@ -8,7 +8,8 @@ char    *ft_strupcase(char *str)
     index = 0;
     while(str[index])
     {
-        str[index] -= 32;
+        if(str[index] >= 'a' && str[index] <= 'z')
+            str[index] -= 32;
         index++;
     }
     return(str);
@@ -16,7 +17,7 @@ char    *ft_strupcase(char *str)
 
 int     main(void)
 {
-    char    str[100] = "lancelot";
+    char    str[100] = "lancEoT";
 
     printf("pre func:: %s\n", str);
     ft_strupcase(str);
