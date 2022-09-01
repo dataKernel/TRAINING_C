@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 
-//lancelot code a 42xxx == Lancelot Code A 42xxx
-
 char    *ft_strcapitalize(char *str)
 {
     int     index;
