@@ -25,7 +25,7 @@ int     ft_str_is_num(char *str)
 
 int     main(void)
 {
-    char    *str = "42";
+    char    *str = "4";
 
     printf("%i", ft_str_is_num(str));
 
