@@ -53,7 +53,7 @@ int		main(void)
 {
 	int		data;
 
-	data = 2;
+	data = 5;
 
 	while(data--)
 		ft_draw_square(4);
