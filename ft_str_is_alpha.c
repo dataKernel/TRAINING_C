@@ -28,7 +28,8 @@ int     ft_str_is_alpha(char *str)
         return(1);
     while(str[i])
     {
-        if(str[i] < 'a' || str[i] > 'z')
+        if((str[i] < 'A' || str[i] > 'z') ||
+        (str[i] > 'Z' && str[i] < 'a'))
             check = false;
         i++;
     }
@@ -40,7 +41,7 @@ int     ft_str_is_alpha(char *str)
 
 int     main(void)
 {
-    char    *str = "lan1celot";
+    char    *str = "lancelot";
     printf("%i", ft_str_is_alpha(str));
     return(0);
 }
