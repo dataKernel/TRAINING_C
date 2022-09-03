@@ -16,6 +16,11 @@ int		ft_atoi(char *str)
 	return(result / 10);
 }
 
+int 	main(void)
+{
+	return ;
+}
+
 int		main(void)
 {
 	int res;
