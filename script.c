@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <string.h>
 
 int     ft_strlen(char *str)
 {
@@ -30,8 +31,7 @@ char    *ft_strcat(char *dst, char *src)
 int     main(void)
 {
     char    dst[100] = "lancelot";
-    int     i;
 
-    i = 0;
+    printf("%s\n", ft_strcat(dst, "abc"));
     return(0);
 }
