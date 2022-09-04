@@ -23,12 +23,15 @@ char    *ft_strcat(char *dst, char *src)
         *(dst + (i + sizeDst)) = *(src + i);
         i++;
     }
+    *(dst + (i + 1 + sizeDst)) = '\0';
     return(dst);
 }
 
 int     main(void)
 {
-    char    *dst = "lancelot";
-    ft_strcat(dst, "abc");
+    char    dst[100] = "lancelot";
+    int     i;
+
+    i = 0;
     return(0);
 }
